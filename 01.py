@@ -1,4 +1,6 @@
 def number_arrange(m, n):
+    """Return how many non-repeating n-digit numbers can be formed by selecting n
+    non-repeating numbers from m non-repeating numbers."""
     return combination_number(m, n) * factorial(n)
 
 def combination_number(m, n):
